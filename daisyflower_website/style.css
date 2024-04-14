@@ -7,9 +7,11 @@ a {
     color: white;
     text-decoration: none;
 }
+
 a:hover {
     color: #c3b19d;
 }
+
 nav {
     height: 80px;
     background-color: #f3c1bc;
@@ -18,18 +20,79 @@ nav {
     align-items: center;
 }
 
+.nav-item {
+    padding: 20px 10px;
+    font-weight: 550;
+}
+
 main {
-    height: 970px;
+    height: 980px;
     background-color: white;
 
 }
 
 footer {
-    height: 300px;
+    height: 500px;
     background-color: #f3c1bc;
+    display: flex;
+    justify-content: center;
 }
 
-.nav-item {
-    padding: 20px 10px;
-    font-weight: 550;
+.container {
+    max-width: 1100px;
+    width: 100%;
+    padding: 80px;
+    padding-bottom: 50px;
 }
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.first-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.second-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.sub-title {
+    color: #808080;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.sub-title {
+    color: #808080;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+
+.footer-menu-item {
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 15px;
+}
+
