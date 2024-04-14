@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #c3b19d;
+}
+nav {
+    height: 80px;
+    background-color: #f3c1bc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    height: 970px;
+    background-color: white;
+
+}
+
+footer {
+    height: 300px;
+    background-color: #f3c1bc;
+}
+
+.nav-item {
+    padding: 20px 10px;
+    font-weight: 550;
+}
